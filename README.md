@@ -5,7 +5,7 @@ Send and Verify OTP using Twilio
 ### Send OTP
 Send a POST request to send an OTP to a user's phone number
 ```go
-{"phoneNumber": "+918982699591"}
+{"phoneNumber": "+918902699501"}
 ```
 Response
 ```go
@@ -18,7 +18,7 @@ Response
 ### Verify OTP
 Verify OTP by sending a POST request that contains the phone number and the OTP code received by the user
 ```go
-{"user": {"phoneNumber": "+917420840576"}, "code":"625481"}
+{"user": {"phoneNumber": "+918902699501"}, "code":"625481"}
 ```
 Response
 ```go
